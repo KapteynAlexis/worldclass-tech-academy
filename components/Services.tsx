@@ -2,14 +2,14 @@
 
 const services = [
   {
-    title: 'Website Development',
+    title: 'Frontend Development',
     description:
-      'We design and build fast, responsive, and modern websites tailored to your business goals.',
+      'Build modern, responsive, and user-friendly websites with Worldclass Tech Academy’s Frontend Development Masterclass.',
   },
   {
-    title: 'Web Applications',
+    title: 'Cybersecurity Masterclass',
     description:
-      'Custom web applications built to solve real-world problems with scalability and performance in mind.',
+      'A structured online training program designed to take you from foundational concepts to job-ready cybersecurity skills',
   },
   {
     title: 'UI / UX Design',

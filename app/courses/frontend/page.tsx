@@ -1,4 +1,3 @@
-import Link from "next/link";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 

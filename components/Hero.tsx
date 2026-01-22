@@ -1,4 +1,5 @@
 // src/components/Hero.tsx
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6">
@@ -12,10 +13,10 @@ export default function Hero() {
         </p>
 
         <div className="flex justify-center gap-4">
-          <button className="bg-(--orange-accent) text-black px-6 py-3 rounded-md font-medium">
+          <Link href="/courses" className="bg-[#FF4400] text-black px-6 py-3 rounded-md font-medium">
             Get Started
-          </button>
-
+          </Link>
+          
           <button className="border border-white px-6 py-3 rounded-md">
             Explore Our Services
           </button>
