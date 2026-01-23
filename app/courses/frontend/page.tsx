@@ -1,15 +1,16 @@
+import Link from "next/link";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 export default function FrontendCoursePage() {
   return (
     <>
-      <section className="container py-20 px-20 max-w-4xl">
+      <section className="container py-16 md:py-20 px-6 md:px-10 max-w-4xl">
         <Link href="/courses" className="text-sm hover:underline bg-[#FF4400] text-white font-semibold hover:opacity-90 transition p-4 rounded-md">
           ← Back to Courses
         </Link>
 
-        <h1 className="mt-6 mb-2 text-4xl">Frontend Development Masterclass</h1>
+        <h1 className="mt-6 mb-4 text-4xl">Frontend Development Masterclass</h1>
         <p className="mb-8 text-gray-600">
           Beginner to Advanced · 100% Online
         </p>

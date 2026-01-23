@@ -12,14 +12,14 @@ const services = [
       'A structured online training program designed to take you from foundational concepts to job-ready cybersecurity skills',
   },
   {
-    title: 'UI / UX Design',
+    title: 'Data Analysis',
     description:
-      'Clean, intuitive interfaces focused on delivering great user experiences across all devices.',
+      'Turn data into actionable insights with Worldclass Tech Academy’s Data Analysis Masterclass',
   },
   {
-    title: 'Tech Training & Mentorship',
+    title: 'Customer Service',
     description:
-      'Practical tech training and mentorship designed to prepare you for real-world industry challenges.',
+      'Build strong communication skills and deliver exceptional customer experiences with Worldclass Tech Academy’s Customer Service Masterclass.',
   },
 ]
 

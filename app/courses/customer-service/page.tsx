@@ -2,24 +2,24 @@ import Link from "next/link";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
-export default function CybersecurityCoursePage() {
+export default function CustomerServiceCoursePage() {
   return (
     <>
-      <section className="container py-20 px-20 max-w-4xl">
-        <Link href="/courses" className="text-sm hover:underline bg-[#FF4400] text-white font-semibold hover:opacity-90 transition p-4 rounded-md">
-          ← Back to Courses
+      <section className="container py-16 md:py-20 px-6 md:px-10 max-w-4xl">
+        
+          ← B<Link href="/courses" className="text-sm hover:underline bg-[#FF4400] text-white font-semibold hover:opacity-90 transition p-4 rounded-md">ack to Courses
         </Link>
 
-        <h1 className="mt-6 mb-2 text-4xl">Cybersecurity Masterclass</h1>
+        <h1 className="mt-6 mb-4 text-4xl">Customer Service Masterclass</h1>
         <p className="mb-8 text-gray-600">
           Beginner to Advanced · 100% Online
         </p>
 
         <p className="mb-10">
-          Protect digital systems and combat cyber threats with Worldclass Tech
-          Academy’s Cybersecurity Masterclass — a structured online training
-          program designed to take you from foundational concepts to job-ready
-          cybersecurity skills in just 12 weeks.
+          Build strong communication skills and deliver exceptional customer
+          experiences with Worldclass Tech Academy’s Customer Service Masterclass
+          — a structured online training program designed to prepare you for
+          professional customer-facing roles in just 12 weeks.
         </p>
 
         <h2 className="mb-4">Program Highlights</h2>
@@ -29,7 +29,8 @@ export default function CybersecurityCoursePage() {
           <li>Format: 100% Online</li>
           <li>Learning Mode: Live Classes + Recorded Sessions</li>
           <li>
-            Outcome: Practical labs, security fundamentals & job-ready skills
+            Outcome: Job-ready communication skills & professional service
+            experience
           </li>
         </ul>
 
@@ -38,8 +39,8 @@ export default function CybersecurityCoursePage() {
           <a
             href="https://wa.me/2349067441498"
             target="_blank"
-            rel="noopener noreferrer"
             className="btn-primary"
+            rel="noopener noreferrer"
           >
             Talk to a Program Advisor
           </a>

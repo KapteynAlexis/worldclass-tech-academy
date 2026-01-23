@@ -32,7 +32,7 @@ const courses = [
 export default function CoursesPage() {
   return (
     <>
-      <section className="container py-20 px-20">
+      <section className="container py-20 px-6 md:px-10 max-w-5xl">
         <h1 className="mb-4 text-4xl">Our Online Courses</h1>
         <p className="max-w-2xl mb-12">
           Our programs are designed to meet current industry demands and prepare

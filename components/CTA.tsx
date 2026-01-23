@@ -16,7 +16,7 @@ export default function CTA() {
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
             href="#contact"
-            className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition"
+            className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]"
           >
             Get Started
           </a>
