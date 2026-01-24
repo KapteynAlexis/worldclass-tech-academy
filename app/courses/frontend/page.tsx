@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export default function FrontendCoursePage() {
   return (
     <>
-      <section className="container py-16 md:py-20 px-6 md:px-10 max-w-4xl">
+      <section className="py-20 px-6 bg-gray-50 text-black">
         <Link href="/courses" className="text-sm hover:underline bg-[#FF4400] text-white font-semibold hover:opacity-90 transition p-4 rounded-md">
           ← Back to Courses
         </Link>

@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 container text-white max-w-3xl text-center">
         <h1 className="mb-6 text-4xl md:text-5xl font-bold leading-tight">
-          WorldClass Tech Academy
+          World Class Tech Academy
         </h1>
 
         <p className="mb-8 text-lg text-gray-200">

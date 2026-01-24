@@ -5,12 +5,12 @@ import Footer from "@/components/Footer";
 export default function CustomerServiceCoursePage() {
   return (
     <>
-      <section className="container py-16 md:py-20 px-6 md:px-10 max-w-4xl">
+      <section className="py-20 px-6 bg-gray-50 text-black">
         
-          ← B<Link href="/courses" className="text-sm hover:underline bg-[#FF4400] text-white font-semibold hover:opacity-90 transition p-4 rounded-md">ack to Courses
+        <Link href="/courses" className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]">← Back to Courses
         </Link>
 
-        <h1 className="mt-6 mb-4 text-4xl">Customer Service Masterclass</h1>
+        <h1 className="mt-6 mb-4 text-6xl font-bold">Customer Service Masterclass</h1>
         <p className="mb-8 text-gray-600">
           Beginner to Advanced · 100% Online
         </p>
@@ -35,11 +35,11 @@ export default function CustomerServiceCoursePage() {
         </ul>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="btn-outline">Download Brochure</button>
+          <button className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]">Download Brochure</button>
           <a
             href="https://wa.me/2349067441498"
             target="_blank"
-            className="btn-primary"
+            className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400] text-center"
             rel="noopener noreferrer"
           >
             Talk to a Program Advisor
