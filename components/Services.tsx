@@ -1,5 +1,6 @@
 // src/components/Services.tsx
 import Image from "next/image";
+import Link from "next/link";
 const services = [
   {
     title: 'Frontend Development',
@@ -58,7 +59,13 @@ export default function Services() {
               </p>
             </div>
           ))}
+          
         </div>
+        <div className="flex items-center justify-center p-4">
+              <Link href="/courses" className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]">
+                             Explore Courses
+              </Link>
+          </div>
       </div>
     </section>
   )

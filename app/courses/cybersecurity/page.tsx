@@ -33,13 +33,13 @@ export default function CybersecurityCoursePage() {
           </li>
         </ul>
 
-        <div className="flex flex-col sm:flex-row gap-4">
-          <button className="btn-outline">Download Brochure</button>
+         <div className="flex flex-col sm:flex-row gap-4">
+          <button className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]">Download Brochure</button>
           <a
             href="https://wa.me/2349067441498"
             target="_blank"
+            className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400] text-center"
             rel="noopener noreferrer"
-            className="btn-primary"
           >
             Talk to a Program Advisor
           </a>

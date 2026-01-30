@@ -2,24 +2,24 @@
 
 const reasons = [
   {
-    title: 'Modern Technologies',
+    title: 'Fully Online Learning',
     description:
-      'We use up-to-date tools and technologies to build solutions that are reliable, scalable, and future-ready.',
+      'Access all classes, materials, and sessions remotely — no physical attendance required.',
   },
   {
-    title: 'Performance-Focused Builds',
+    title: 'Practical & Project-Based',
     description:
-      'Our focus is on speed, responsiveness, and clean code to ensure optimal user experience.',
+      'Learn by building real projects that strengthen your portfolio and confidence.',
   },
   {
-    title: 'Clear Communication',
+    title: 'Industry-Experienced Instructors',
     description:
-      'We believe in transparency and consistent communication throughout every stage of the project.',
+      'Get trained by professionals with real-world tech experience.',
   },
   {
-    title: 'Tailored Solutions',
+    title: 'Flexible Learning Schedule',
     description:
-      'Every solution is designed around your specific goals, not one-size-fits-all templates.',
+      'Learn at your pace with live sessions, recordings, and guided support.',
   },
 ]
 

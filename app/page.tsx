@@ -6,14 +6,17 @@ import Testimonials from '@/components/Testimonials'
 import FAQ from '@/components/FAQ'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
-
+import Impact from '@/components/Impact'
+import About from '@/components/About'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Services />
+      <Impact />
+      <About/>
       <WhyChooseUs />
+      <Services />
       <Testimonials />
       <FAQ />
       <CTA />

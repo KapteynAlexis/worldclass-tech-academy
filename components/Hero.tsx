@@ -24,8 +24,7 @@ export default function Hero() {
         </h1>
 
         <p className="mb-8 text-lg text-gray-200">
-          Build future-ready tech skills online with expert guidance,
-          real projects, and a supportive learning community.
+          Build future-ready tech skills online with a fully online tech learning platform designed to help you gain practical, in-demand digital skills from anywhere in the world. Learn at your pace with expert guidance, real projects, and a supportive learning community.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-12 justify-center">
