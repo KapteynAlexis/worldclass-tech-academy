@@ -22,7 +22,7 @@ export default function CTA() {
           </a>
 
           <a
-            href="#contact"
+            href="https://wa.me/2349067441498"
             className="px-8 py-4 rounded-md border border-white text-white font-semibold hover:bg-white hover:text-[#040440] transition"
           >
             Talk to Us

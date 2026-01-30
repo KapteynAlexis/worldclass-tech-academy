@@ -31,9 +31,9 @@ export default function Hero() {
           <Link href="/courses" className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]">
                    Explore Courses
                   </Link>
-          <a className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]">
-            Enroll Now
-          </a>
+          <Link href="https://forms.gle/urhsVspP6d2bDQ7x6" className="px-8 py-4 rounded-md bg-[#FF4400] text-white font-semibold hover:opacity-90 transition  hover:bg-white hover:text-[#FF4400]">
+                   Enroll Now
+                  </Link>
         </div>
       </div>
     </section>
