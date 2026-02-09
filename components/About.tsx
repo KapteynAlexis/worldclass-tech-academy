@@ -15,7 +15,15 @@ export default function About() {
             </div>
             
         </div>
-            <Image src="/images/about-img2.png" alt="Worldclass Tech Academy" width={500} height={500} className="flex flex-col sm:flex-row gap-8 max-w-6xl mx-auto pt-8"/>      
+            <div className="flex justify-center pt-8 px-4">
+              <Image 
+                src="/images/about-img2.png" 
+                alt="Worldclass Tech Academy" 
+                width={500} 
+                height={500} 
+                className="w-full max-w-2xl h-auto"
+              />
+            </div>      
     </section>
   )
 }

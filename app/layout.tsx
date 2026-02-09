@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'WorldClass Tech Academy',
+  title: 'World Class Tech Academy',
   description: 'Building world-class digital solutions for the modern world',
 };
 
