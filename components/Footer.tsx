@@ -1,5 +1,5 @@
 // src/components/Footer.tsx
-
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-[#040440] text-gray-300 px-6 py-16">
@@ -20,10 +20,10 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#services" className="hover:text-[#FF4400]">Services</a></li>
-            <li><a href="#process" className="hover:text-[#FF4400]">Our Process</a></li>
-            <li><a href="#why-us" className="hover:text-[#FF4400]">Why Choose Us</a></li>
-            <li><a href="#contact" className="hover:text-[#FF4400]">Contact</a></li>
+            <li><Link href="/"className="hover:text-[#FF4400]">Home</Link></li>
+            <li><Link href="/courses" className="hover:text-[#FF4400]">Courses</Link></li>
+            <li><Link href="/" className="hover:text-[#FF4400]">About Us</Link></li>
+            <li><Link href="https://wa.me/2349067441498" className="hover:text-[#FF4400]">Contact Us</Link></li>
           </ul>
         </div>
 
@@ -31,10 +31,10 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-4">Services</h4>
           <ul className="space-y-2 text-sm">
-            <li>Web Development</li>
-            <li>Tech Training</li>
-            <li>UI / UX Design</li>
-            <li>Consulting</li>
+            <li>Frontend Development</li>
+            <li>Cybersecurity</li>
+            <li>Data Analysis</li>
+            <li>Customer Service</li>
           </ul>
         </div>
 
@@ -43,7 +43,7 @@ export default function Footer() {
           <h4 className="text-white font-semibold mb-4">Contact</h4>
           <ul className="space-y-2 text-sm">
             <li>Email: info@worldclasstech.academy</li>
-            <li>Phone: +234 XXX XXX XXXX</li>
+            <li>Phone: +2349067441498</li>
             <li>Location: Nigeria</li>
           </ul>
         </div>

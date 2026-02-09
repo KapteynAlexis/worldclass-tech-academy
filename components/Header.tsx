@@ -25,7 +25,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-8">
           <Link href="/" className="hover:text-[#FF4400] hover:bg-white p-4 rounded-md font-bold">Home</Link>
           <Link href="/courses" className="hover:text-[#FF4400] hover:bg-white p-4 rounded-md font-bold">Courses</Link>
-          <Link href="#contact" className="hover:text-[#FF4400] hover:bg-white p-4 rounded-md font-bold">Contact</Link>
+          <Link href="https://wa.me/2349067441498" className="hover:text-[#FF4400] hover:bg-white p-4 rounded-md font-bold">Contact</Link>
         </nav>
 
         {/* Hamburger Button */}
